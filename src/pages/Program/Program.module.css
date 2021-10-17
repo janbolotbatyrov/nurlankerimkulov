@@ -1,0 +1,18 @@
+.program{
+    height: 100vh;
+    color: #1641b6;
+}
+
+.slideLeftHide{
+    opacity: 0;
+    transform: translateX(50%);
+    transition: opacity 0.3s ease-in-out transform 0.3s ease-in-out ;
+    color: #000;
+}
+
+.slideLeftShow{
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity 0.3s ease-in-out transform 0.3s ease-in-out ;
+    color: red;
+}

@@ -1,0 +1,12 @@
+.projects {
+  height: 100vh;
+}
+
+.projectsInner{
+
+}
+
+.projectsInner h1{
+  color: #1641b6;
+  font-size: 40px;
+}

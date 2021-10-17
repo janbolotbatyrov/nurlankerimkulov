@@ -1,0 +1,52 @@
+.main {
+  margin-top: 120px;
+  height: 90vh;
+}
+
+.mainInner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainText {
+  border-left: 5px solid #1641b6;
+  padding-left: 20px;
+  height: 100%;
+  animation: slideRight 1.5s;
+}
+
+.mainText h1 {
+  color: #1641b6;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.mainText h2 {
+  font-weight: 400;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.mainImg {
+  animation: slideLeft 1s;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateY(-30%);
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
